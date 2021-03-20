@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import burger from "../../assets/burger.png";
 import "./style.css";
 class Projects extends Component {
     render() {
@@ -15,7 +16,7 @@ class Projects extends Component {
                                         <div className="columns portfolio-item">
                                             <div className="item-wrap">
                                                 <a href="#modal-01">
-                                                    <img src={item.imgurl} className="item-img" />
+                                                    <img src={ item.url } height="400px" width="400px"className="item-img" />
                                                     <div className="overlay">
                                                         <div className="portfolio-item-meta">
                                                             <h5> {item.name}</h5>

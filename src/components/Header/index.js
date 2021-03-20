@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 import "./style.css";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faLinkedin, faGithub } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
+
+// const element = <FontAwesomeIcon icon={faCoffee} />
 class Header extends Component {
     render() {
         let Data = this.props.Data;
@@ -43,11 +49,13 @@ class Header extends Component {
                         <hr />
                         <ul className="social">
                             {
-                               Data.socialLinks && Data.socialLinks.map(item => {
+                                Data.socialLinks.map(item => {
                                     return (
                                         <li key={item.name}>
                                             <a href={item.url} target="_blank">
-                                                <i className={item.className}></i>
+                                                <FontAwesomeIcon icon={item.className} />
+                                                
+
                                             </a>
                                         </li>
                                     )

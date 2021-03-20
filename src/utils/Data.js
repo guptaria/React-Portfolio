@@ -8,12 +8,12 @@ let Data = {
         {
           "name":"linkedin",
           "url":"www.linkedin.com/in/priyagarg123",
-          "className":"fa fa-linkedin"
+          "className":"faLinkedin"
         },
         {
           "name":"github",
           "url":"https://github.com/guptaria",
-          "className":"fa fa-github"
+          "className":"faGithub"
         },
         // {
         //   "name":"skype",
@@ -81,7 +81,7 @@ let Data = {
       {
         "name":"Eat-Da-Burger",
         "description":"This project is a full stack application that allows you to place an order for a burger. When you place an order, the burger you enter in the form field is added to the list of burgers on the left side of the screen",
-        "imgurl":"images/portfolio/project.jpg"
+        "imgurl":"../assets/burger.png"
       },
       {
         "name":"Weather_Dashboard",
