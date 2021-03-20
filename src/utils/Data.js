@@ -72,7 +72,7 @@ let Data = {
         "skillname":"Nodejs"
       }
     ],
-    "portfolio":[
+    "projects":[
       {
         "name":"Travel Journal",
         "description":"Social Media Network to allow for creation of Trip Journals to share with family and friends!",

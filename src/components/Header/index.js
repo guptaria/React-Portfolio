@@ -18,11 +18,11 @@ class Header extends Component {
                         </li>
                         <li >
                             <a className="smoothscroll"
-                                href="#resume">Resume</a>
+                                href="#education">Education</a>
                         </li>
                         <li >
                             <a className="smoothscroll"
-                                href="#portfolio">Portfolio</a>
+                                href="#projects">Projects</a>
                         </li>
                         <li >
                             <a className="smoothscroll"
