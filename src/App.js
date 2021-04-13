@@ -5,6 +5,7 @@ import Header from "../src/components/Header/index";
 import About from "../src/components/About/index";
 import EducationSkills from "../src/components/EducationSkills/index";
 import Projects from "../src/components/Projects/index";
+import Testimonial from "../src/components/Testimonial/index";
 import Data from "../src/utils/Data";
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
    <About Data={Data} /> 
    <EducationSkills Data={Data} />
    <Projects Data={Data} />
+   <Testimonial Data={Data}/>
    </div>
   );
 }
