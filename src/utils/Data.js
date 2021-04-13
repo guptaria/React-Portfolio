@@ -1,3 +1,6 @@
+// import burger from "../../src/assets/Daily_Planner.png";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
+
 let Data = {
     "imagebaseurl":"https://rbhatia46.github.io/",
     "name": "Priya Garg",
@@ -8,12 +11,13 @@ let Data = {
         {
           "name":"linkedin",
           "url":"www.linkedin.com/in/priyagarg123",
-          "className":"faLinkedin"
+          "className": faLinkedin
+
         },
         {
           "name":"github",
           "url":"https://github.com/guptaria",
-          "className":"faGithub"
+          "className": faGithub
         },
         // {
         //   "name":"skype",

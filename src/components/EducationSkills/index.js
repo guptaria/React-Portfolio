@@ -30,7 +30,7 @@ class EducationSkills extends Component {
     </div>
 
     <div className="nine columns  main-col">
-        <p>{Data.skillsDescription}</p>
+        {/* <p>{Data.skillsDescription}</p> */}
         <div className="bars">
             <ul className="skills">
                 { 
